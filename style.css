@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  color: #22223B;
+  background-color: #C9ADA7;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+h1 {
+  color: #9A8C98;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+h2 {
+  color: #9A8C98;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  margin-block-start: 0px;
+  margin-block-end: 3px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+h3 {
+  color: #9A8C98;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+a {
+  color: #4A4E69;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9A8C98;
+  text-decoration: none;
+}
+
+p {
+    display: block;
+    padding: 15px 20px;
+    margin-block-start: 20px;
+    margin-block-end: 35px;
+    margin-inline-start: 1px;
+    margin-inline-end: 1px;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #F2E9E4;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 20px 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  background-color: #4A4E69;
+  color: #F2E9E4;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.fa-brands {
+  font-size: 50px;
+  padding: 0px;
+  color: grayscale(0.5);
+  text-rendering: auto;
+}
+
+.list-inline {
+  display: inline;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
